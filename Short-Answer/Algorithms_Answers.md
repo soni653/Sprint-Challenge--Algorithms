@@ -3,7 +3,7 @@
 ## Exercise I
 
 a)
-The runtime complexity is O(n). This is because with each iteration of the while loop, 'a' increases by 'n _ n', so after 'n' iterations 'a' will be equal to 'n _ (n _ n)' which matches the while loop's conditional check of 'a < n _ n \* n'.
+The runtime complexity is O(n). This is because with each iteration of the while loop, 'a' increases by 'n _ n', so after 'n' iterations 'a' will be equal to 'n _ (n \_ n)' which matches the while loop's conditional check of 'a < n _ n _ n'.
 
 b)
 The runtime complexity is O(n\*log(n)). This is because there are nested loops: the outer 'for' loop will run 'n' times, and the inner 'while' loop will run log(n) times. The inner loop has a log(n) time complexity because the value of 'j' doubles with each iteration, so 'j' will increase quadradically and only take log(n) iterations to reach the value of 'n'.
